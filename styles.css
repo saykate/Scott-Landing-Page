@@ -105,18 +105,24 @@
     font-size: 3rem;
     font-weight: 900;
     line-height: 1;
+    padding-bottom: 1rem;
   }
 
   .section-one_text {
     font-size: 1.125rem;
     color: var(--clr-mid);
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
   }
 
   .section-one_image {
     border: 2px solid var(--clr-accent);
     border-radius: 20px;
     width: 50%;
+  }
+
+  .page-contact .section-one_content {
+    display: flex;
+    justify-content: center;
   }
 
   .cta-button {
@@ -143,6 +149,12 @@
     font-size: 2rem;
     font-weight: 900;
     color: var(--clr-dark);
+  }
+
+  .section-two_text {
+    font-size: 1.125rem;
+    color: var(--clr-dark);
+    padding-bottom: 2rem;
   }
 
   .images {
