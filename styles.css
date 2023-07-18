@@ -37,8 +37,6 @@
   /* Styling */
 
   body {
-    /* display: flex;
-    flex-direction: column; */
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
   }
@@ -74,7 +72,6 @@
   a {
     text-decoration: none;
     font-size: 1.125rem;
-    color: var(--clr-lighter);
   }
 
   a:hover {
@@ -122,16 +119,15 @@
     width: 50%;
   }
 
-  button {
-    background-color: var(--clr-accent);
-    border: none;
+  .cta-button {
+    background-color: var(--clr-dark);
     color: var(--clr-lightest);
     padding: .25rem 2.5rem;
     border-radius: 5px;
   } 
 
-  button:hover {
-    background-color: var(--clr-dark);
+  .cta-button:hover {
+    background-color: var(--clr-light);
     color: var(--clr-accent);
     opacity: 90%;
   }
@@ -192,11 +188,6 @@
   .cta-header {
     font-size: 1.125rem;
     font-weight: 900;
-  }
-
-  .cta-button {
-    border: 1px solid var(--clr-lightest);
-    margin: 1rem 0;
   }
 
   footer {
