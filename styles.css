@@ -94,7 +94,7 @@
   }
 
   .section-one {
-   background-color: var(--clr-lightest);
+    background-color: var(--clr-lightest);
     padding: 5rem 0;
     color: var(--clr-light);
   }
@@ -250,7 +250,7 @@
     .one {
       margin-left: 0;
     }
-    .section-one_info, .section-one_text {
+    .page-about .section-one_info, .page-about .section-one_text, .page-rates .section-one_info, .page-rates .section-one_text, .page-contact .section-one_info, .page-contact .section-one_text {
       padding: 0;
     }
     h1 {
