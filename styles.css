@@ -87,8 +87,6 @@
     padding: .5rem 0;
   }
 
-
-
   .one {
     margin-left: auto;
   }
@@ -217,6 +215,12 @@
     text-align: center;
   }
 
+  @media (max-width: 900px) {
+    .smaller-content {
+      width: 85%;
+    }
+  }
+
   @media (max-width: 650px) {
   .section-one_content,
   .images, 
@@ -229,6 +233,9 @@
   }
   .section-one_image {
     width: 100%;
+  }
+  .images {
+    gap: 3rem;
   }
   .section-three_content {
     align-items: center;
